@@ -27,4 +27,7 @@ public class User {
 //    Parent child relation is established
     @DBRef
     private List<JournalEntry> journalEntries = new ArrayList<>();
+
+//    Authorization part -> user is assigned which roles (like simple user or admin or anything else)
+    private List<String> roles;
  }
