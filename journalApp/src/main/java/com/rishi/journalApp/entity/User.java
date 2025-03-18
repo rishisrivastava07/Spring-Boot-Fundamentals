@@ -30,4 +30,8 @@ public class User {
 
 //    Authorization part -> user is assigned which roles (like simple user or admin or anything else)
     private List<String> roles;
- }
+
+    public User() {
+
+    }
+}
